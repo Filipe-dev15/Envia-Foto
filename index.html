@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enviar Fotos</title>
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <script src="post.js"></script>
+  <div id="enviar-container">
+    <h1>Enviar Foto</h1>
+    <form >
+      <label for="id">ID.</label>
+      <input type="Id" name="ID" id="id"  placeholder="Digite um id numerico" >
+      <label for="foto">Foto</label>
+      <input type="foto" name="foto" id="foto"  placeholder="Adicione uma foto em formato base 64">
+      <input type="submit" value="Enviar" onclick="cadastraFoto()">
+    </form>
+    <div id="altera-container">
+      <p>Alterar formato da foto para base 64</p>
+      <a href="https://www.base64-image.de/">Alterar Foto</a>
+    </div>
+  </div>
+</body>
+</html>
